@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+      a {
+        background-color: white;
+        border: 1px solid red;
+        height: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: row">
+      <div style="height: 100vh; width: 20vw; background-color: DimGray">
+        <div style="display: flex; flex-direction: column">
+          <a id="munjal">Munjal</a>
+          <a id="gabriel">Gabriel</a>
+        </div>
+      </div>
+      <webview id="webview" src="https://calendar.google.com/" style="display:inline-flex; width: 80vw; height: 100vh"></webview>
+    </div>
+    <script>
+      require('./renderer.js')
+    </script>
+  </body>
+</html>

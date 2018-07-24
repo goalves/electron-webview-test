@@ -1,0 +1,3 @@
+node_modules
+.DS_STORE
+electron-test-darwin-x64
